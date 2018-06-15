@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* .container {
+    margin-top: 100px;
+} */
+#itemAddedBar {
+    position: fixed;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    opacity: 0.8;
+}
+#itemAddedBar p {
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 39%;
+    margin-left: 36%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#itemAddedBar a {
+    color: white;
+    text-decoration: underline;
+}
+#itemAddedBar button {
+    display: inline-block;
+    vertical-align: center;
+    height: 40px;
+    width: 30px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#itemExistsBar {
+    position: fixed;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    opacity: 0.8;
+}
+#itemExistsBar p {
+    display: inline-block;
+    vertical-align: center;
+    margin-right: 39%;
+    margin-left: 36%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#itemExistsBar a {
+    color: white;
+    text-decoration: underline;
+}
+#itemExistsBar button {
+    display: inline-block;
+    vertical-align: center;
+    height: 40px;
+    width: 30px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.main {
+    background: #FFFBFA;
+}
+.row {
+    margin-left: 4%
+}
+.videoBox {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    padding: 10px;
+}
+.title {
+    text-align: center;
+}
+.level {
+    text-align: center;
+}
+.desc {
+    text-align: center;
+}
+.videoSpace {
+    border-style: solid;
+    background-color: black;
+    border-width: 2px;
+    height: 200px
+}
+.addButton {
+    margin-left: 38%;
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #FFB59B;
+    border: solid;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+}
+.footer {
+    margin-top: 30px;
+    padding: 2%;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    width: 100%;
+    background-color: #8F7F7A;
+}
+.connect {
+    margin: 0 auto;
+    margin-left: 37%;
+}
+.footer h2 {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer img {
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+    height: 60px;
+    padding-left: 20px;
+}
+.footer connect h2 {
+    display: inline-block;
+    vertical-align: top;
+}

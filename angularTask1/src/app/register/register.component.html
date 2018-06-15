@@ -1,0 +1,42 @@
+<div class="component">
+  <div class="background reg" >
+    <!-- <img src="../assets/SignUpOrchid.jpg" alt="signUpOrchid"> -->
+    <div class="main">
+      <h1>Register</h1>
+    
+      <p *ngIf="errors" style="color: red; text-align: center" > {{ error_message }} </p>
+    
+      <div class="wrapper">
+        <form (submit)="submitClicked()">
+          <div class="spacing">
+            <input type="text" name="fname" placeholder="First Name" id="firstName" [(ngModel)] = "newUser.fname">
+            <input type="text" name="lname" placeholder="Last Name" [(ngModel)] = "newUser.lname">
+          </div>
+          <div class="spacing">
+            <input type="email" name="email" placeholder="example@email.com" [(ngModel)] = "newUser.email">
+          </div>
+          <div class="spacing">
+            <input type="password" name="password" placeholder="password" [(ngModel)] = "newUser.password">
+          </div>
+          <input type="submit" value="Submit" id="submitButton">
+          <div class="spacing">
+            <p><a [routerLink]="['/login']" id="loginLink">I'm already a member</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="connect">
+        <a href="https://www.facebook.com/DesireeMayProductions/"><img src="../assets/icons/flogo-RGB-HEX-Blk-72.png" alt="facebook"></a>
+        <a href="https://www.linkedin.com/in/desireemay5/"><img src="../assets/icons/In-Black-75px-R.png" alt="linkedIn"></a>
+        <a href="https://www.youtube.com/channel/UCMilP7QsgyLR1Zmv-KkGrDg?view_as=subscriber"><img src="../assets/icons/youtube_social_circle_dark.png" alt="youtube"></a>
+        <a href="https://www.yelp.com/biz/desiree-may-productions-fremont"><img src="../assets/icons/Yelp_burst_negative_RGB.png" alt="yelp"></a>
+    </div>
+    <p>Copyright &copy; 2018 Desiree May Productions - All Rights Reserved.</p>   
+</div>
+
+</div>
+
+

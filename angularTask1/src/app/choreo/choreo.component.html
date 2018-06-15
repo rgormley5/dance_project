@@ -1,0 +1,142 @@
+<div id="itemAddedBar" class="container-fluid" *ngIf="itemAdded">
+    <div>
+      <p>1 item added to <a [routerLink]="['/cart']">your cart</a></p>
+      <button (click)="itemAddedClose()" >&#10005;</button>
+    </div>
+</div>
+
+<div id="itemExistsBar" class="container-fluid" *ngIf="itemExists">
+  <div>
+    <p>item already exists in <a [routerLink]="['/cart']">your cart</a></p>
+    <button (click)="itemAddedClose()" >&#10005;</button>
+  </div>
+</div>
+
+<div class="main">
+    <h1>Click Subscription or purchase a la carte</h1>
+    <div class="row">
+      <div class="videoBox">
+        <div class="videoSpace" id="video1"></div>
+        <h3 class="title">“Perfect” by Ed Sheeran and Beyonce</h3>
+        <p class="level">Level: Hard / Style: Slow Dance</p>
+        <p class="desc">Description: Slow, Romantic, Flowy</p>
+        <button #itemID1 class="addButton" value="1" (click)="cartItemClicked(itemID1.value)" >Add to Cart</button>
+      </div>
+      <div class="videoBox">
+        <div class="videoSpace" id="video2"></div>
+        <h3 class="title">“The Way You Look Tonight” by Frank Sinatra</h3>
+        <p class="level">Level: Medium / Style: Fox Trot</p>
+        <p class="desc">Description: Classy, Formal </p>
+        <button #itemID2 class="addButton" value="2" (click)="cartItemClicked(itemID2.value)" >Add to Cart</button>
+      </div>
+      <div class="videoBox">
+        <div class="videoSpace" id="video3"></div>
+        <h3 class="title">“Over and Over Again” by Nathan Sykes and Ariana Grande</h3>
+        <p class="level">Level: TBA / Style: Slow Dance</p>
+        <p class="desc">Description: Casual, Romantic</p>
+        <button #itemID3 class="addButton" value="3" (click)="cartItemClicked(itemID3.value)" >Add to Cart</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="videoBox">
+        <div class="videoSpace" id="video4"></div>
+        <h3 class="title">“Marry Me” by Train</h3>
+        <p class="level">Level: TBA / Style: Rumba</p>
+        <p class="desc">Description: TBA</p>
+        <button #itemID4 class="addButton" value="4" (click)="cartItemClicked(itemID4.value)" >Add to Cart</button>
+      </div>
+      <div class="videoBox">
+        <div class="videoSpace" id="video5"></div>
+        <h3 class="title">“Thousand Years” by Christina Perry</h3>
+        <p class="level">Level: TBA / Style: Waltz</p>
+        <p class="desc">Description: TBA</p>
+        <button #itemID5 class="addButton" value="5" (click)="cartItemClicked(itemID5.value)" >Add to Cart</button>
+      </div>
+      <div class="videoBox">
+        <div class="videoSpace" id="video6"></div>
+        <h3 class="title">“You and Me” by Lifehouse</h3>
+        <p class="level">Level: TBA / Style: Waltz</p>
+        <p class="desc">Description: TBA</p>
+        <button #itemID6 class="addButton" value="6" (click)="cartItemClicked(itemID6.value)" >Add to Cart</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="videoBox">
+        <div class="videoSpace" id="video7"></div>
+        <h3 class="title">“You Are the Best Thing” by Ray Lamontagne</h3>
+        <p class="level">Level: TBA / Style: Foxy</p>
+        <p class="desc">Description: TBA</p>
+        <button #itemID7 class="addButton" value="7" (click)="cartItemClicked(itemID7.value)" >Add to Cart</button>
+      </div>
+      <div class="videoBox">
+        <div class="videoSpace" id="video8"></div>
+        <h3 class="title">“Beautiful in White” by Matt Johnson</h3>
+        <p class="level">Level: TBA / Style: TBA</p>
+        <p class="desc">Description: Classy, Formal </p>
+        <button #itemID8 class="addButton" value="8" (click)="cartItemClicked(itemID8.value)" >Add to Cart</button>
+      </div>
+      <div class="videoBox">
+        <div class="videoSpace" id="video9"></div>
+        <h3 class="title">“Stay with You” by John Legend</h3>
+        <p class="level">Level: TBA / Style: Foxy</p>
+        <p class="desc">Description: TBA</p>
+        <button #itemID9 class="addButton" value="9" (click)="cartItemClicked(itemID9.value)" >Add to Cart</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="videoBox">
+        <div class="videoSpace" id="video10"></div>
+        <h3 class="title">“The Sweetest Love” by Robin Thicke</h3>
+        <p class="level">Level: TBA / Style: Foxy</p>
+        <p class="desc">Description: TBA</p>
+        <button #itemID10 class="addButton" value="10" (click)="cartItemClicked(itemID10.value)" >Add to Cart</button>
+      </div>
+      <div class="videoBox">
+        <div class="videoSpace" id="video11"></div>
+        <h3 class="title">“Can’t Help Falling In Love” by Elvis Presley</h3>
+        <p class="level">Level: TBA / Style: Foxy</p>
+        <p class="desc">Description: TBA</p>
+        <button #itemID11 class="addButton" value="11" (click)="cartItemClicked(itemID11.value)" >Add to Cart</button>
+      </div>
+    </div>
+    <div class="footer">
+        <div class="connect">
+          <a href="https://www.facebook.com/DesireeMayProductions/"><img src="../assets/icons/flogo-RGB-HEX-Blk-72.png" alt="facebook"></a>
+          <a href="https://www.linkedin.com/in/desireemay5/"><img src="../assets/icons/In-Black-75px-R.png" alt="linkedIn"></a>
+          <a href="https://www.youtube.com/channel/UCMilP7QsgyLR1Zmv-KkGrDg?view_as=subscriber"><img src="../assets/icons/youtube_social_circle_dark.png" alt="youtube"></a>
+          <a href="https://www.yelp.com/biz/desiree-may-productions-fremont"><img src="../assets/icons/Yelp_burst_negative_RGB.png" alt="yelp"></a>
+        </div>
+        <p>Copyright &copy; 2018 Desiree May Productions - All Rights Reserved.</p>   
+      </div>
+  </div>
+
+
+<!-- <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <button class="btn btn-primary btn-sm" data-target="#loginModal" data-toggle="modal">Launch Modal</button>
+        <div class="modal" id="loginModal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Sign in to Save Your Choreo</h4>
+              </div>
+              <div class="modal-body">
+                <form action="">
+                  <div class="form-group">
+                    <label for="inputUserName">Username</label>
+                    <input class="form-control" placeholder="Login Username" type="text" id="inputUserName">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary">Login</button>
+                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->

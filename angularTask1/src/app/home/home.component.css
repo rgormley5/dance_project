@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background: #FFFBFA;
+    /* width: 100%;
+    background-size: cover; */
+}
+
+/* .imgHere {
+    max-height: 500px;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+} */
+.imgHere img {
+    /* border-style: solid;
+    border-color: red;
+    border-width: 5px; */
+    width: 100%;
+    height: auto;
+    /* max-width: 100%; */
+    max-height: 500px;
+    margin-top: 13px;
+    /* margin-left: 15%; */
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.coverText {
+    color: white;
+    z-index: 100;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10%;
+    width: 20%;
+    font-size: 32px;
+}
+.coverText p {
+    font-size: 16px;
+}
+.coverText button{
+    border-style: solid;
+    border-color: white;
+    background-color: #FFB59B;
+    color: white;
+    border-width: 2px;
+    padding: 16px 24px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.content1 h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Snell Roundhand, cursive;
+    font-size: 60px;
+    color: #6B2324;
+    text-align: center;
+}
+.content1 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.sectionA {
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    vertical-align: top;
+    width: 400px;
+}
+.content1 h3 {
+    margin-left: 50px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: unset;
+}
+.addImage {
+    display: inline-block;
+    vertical-align: top;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: black;
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.par {
+    margin-left: 70%;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 18px !important ;
+    font-family: sans-serif;
+    text-align: unset !important ;
+}
+ul {
+    /* margin-left: 54px; */
+    font-family: sans-serif;
+    font-size: 20px;
+    /* list-style-type: none; */
+    text-align: left;
+    
+}
+.centerUl {
+    margin-left: 30%;
+}
+.content3 h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Snell Roundhand, cursive;
+    font-size: 45px;
+    color: #6B2324;
+    text-align: center;
+}
+.testimonialWrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 700px;
+}
+/* li {
+    text-align: center;
+    
+} */
+#wedding_content {
+    margin-left: 40px;
+}
+.footer {
+    margin-top: 30px;
+    padding: 2%;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    width: 100%;
+    background-color: #8F7F7A;
+}
+.connect {
+    margin: 0 auto;
+    margin-left: 37%;
+}
+.footer h2 {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer img {
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+    height: 60px;
+    padding-left: 20px;
+}
+.footer connect h2 {
+    display: inline-block;
+    vertical-align: top;
+}
+#thisP {
+    margin-bottom: 37%;
+}
+#exploreButton {
+    border-style: solid;
+    border-color: black !important;
+    background-color: black;
+    color: white;
+    border-width: 2px;
+    padding: 16px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 200px;
+    /* text-align: left; */
+    /* word-spacing: 5px; */
+    margin-left: -90%;
+    opacity: 0.7;
+}
+/* #demo {
+    z-index: 0;
+} */
+.carousel {
+    z-index: 0;
+}

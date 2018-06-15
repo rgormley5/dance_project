@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background: #FFFBFA;
+    min-height: 426px;
+}
+.container {
+    margin-top: 100px;
+    /* min-height: 600px; */
+}
+#cartTitle {
+    margin-top: 95px;
+}
+.items_block {
+    display: inline-block;
+    padding: 10px;
+    /* border: 5px red solid; */
+    min-height: 200px;
+    width: 67%;
+
+}
+.checkout_block {
+    position: fixed;
+    display: inline-block;
+    border: 2px black solid;
+    min-height: 200px;
+    width: 30%;
+    right: 10px;
+    padding: 20px;
+}
+.item_row {
+    border-top: 2px grey solid;
+    border-bottom: 2px grey solid;
+    margin-top: 5px;
+    /* margin-right: 50px; */
+}
+.addIntent {
+    margin-top: 10px;
+}
+/* .itemStill {
+    border: 2px blue solid;
+}
+.itemDescription {
+    border: 2px blueviolet solid;
+}
+.itemPrice {
+    border: 2px magenta solid;
+} */
+.addBold {
+    font-weight: bold;
+}
+#removeLink {
+    color: blue;
+}
+#removeLink:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#addSpace {
+    margin-right: 20px;
+}
+#addCenterA {
+    margin-left: 25%;
+}
+#addCenterB {
+    margin-left: 34%;
+}
+#totalID {
+    margin-left: 34%;
+}
+#buttonID1 {
+    margin-left: 13%;
+    padding: 20px;
+    background-color: #6B2324;
+    border: 2px solid white;
+    width: 80%;
+    color: white;
+}
+
+/* FOOTER */
+.footer {
+    /* margin-top: 30px; */
+    padding: 2%;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    width: 100%;
+    background-color: #8F7F7A;
+    /* border: 2px solid green; */
+}
+.connect {
+    margin: 0 auto;
+    margin-left: 37%;
+}
+.footer h2 {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer img {
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+    height: 60px;
+    padding-left: 20px;
+}
+.footer connect h2 {
+    display: inline-block;
+    vertical-align: top;
+}
+.modal-dialog-centered {
+    margin-left: 33%;
+}
+.modal-content {
+    padding: 10px;
+}
+.modal-body {
+    padding: 15px;
+}
+.buttonStyle {
+    padding: 10px;
+    margin-left: 33%;
+    width: 150px;
+}
+.closeButton {
+    margin-top: 20px;
+    padding: 20px;
+    border: solid 2px;
+}
+.styleNavButtons {
+    padding: 15px;
+}
+.styleNavButtons a {
+    font-size: 20px;
+}

@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background: #FFFBFA;
+    height: 465px;
+}
+.wrapper {
+    margin-top: 100px;
+    margin-left: 33%;
+}
+#registerLink:hover {
+    color: black;
+}
+#registerLink {
+    color: #6B2324;
+}
+#registerLinkp {
+    text-align: center;
+    margin-left: -10%;
+    margin-top: 10px;
+}
+.footer {
+    /* margin-top: 30px; */
+    padding: 2%;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    width: 100%;
+    background-color: #8F7F7A;
+}
+.connect {
+    margin: 0 auto;
+    margin-left: 37%;
+}
+.footer h2 {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer img {
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+    height: 60px;
+    padding-left: 20px;
+}
+.footer connect h2 {
+    display: inline-block;
+    vertical-align: top;
+}
